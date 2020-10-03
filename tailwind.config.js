@@ -6,6 +6,10 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      fontSize: {
+        "extra-xs": "0.65rem"
+      },
+
       height: {
         '100vh': '100vh',
         '200vh': '200vh'
@@ -13,6 +17,10 @@ module.exports = {
 
       borderWidth: {
         '1': '1px'
+      },
+
+      backgroundColor: {
+        'blue-btn': '#2e658a'
       }
     },
   },

@@ -23,19 +23,19 @@
 
 <main style="font-family: 'Helvetica Neue', 'Arial', 'sans-serif'">
 	<!-- Header -->
-	<div style="z-index: 2;" class="header fixed w-full py-1 border-b-1 border-solid border-gray-300 items-center flex justify-around px-2 md:px-6 lg:px-12 ">
+	<div style="z-index: 2;" class="header fixed w-full py-1 border-b-1 border-solid border-gray-300 items-center flex justify-center md:justify-around px-2 md:px-6 lg:px-12 ">
 		<!-- Logotype -->
 		<div>
 			<img style="height: 2.4rem;" src="//static1.squarespace.com/static/50a3c190e4b0d12fc9231429/t/50f87f8ce4b0b3f0a2deeb1d/1600354330125/?format=1500w" alt="unfull logotype">
 		</div>
 
 		<!-- Links -->
-		<div class="uppercase text-xs">
+		<div class="uppercase text-xs hidden md:block">
 			<a href="/" class="mx-6 font-semibold text-black">главная</a>
 			<a href="/videos/recent" class="mx-6 font-semibold text-gray-600">последние видео</a>
-			<a href="/videos/recent" class="mx-6 font-semibold text-gray-600">библиотека</a>
-			<a href="/videos/recent" class="mx-6 font-semibold text-gray-600">про курс</a>
-			<a href="/videos/recent" class="mx-6 font-semibold text-gray-600">магазин ctrl+paint</a>
+			<a href="/videos/library" class="mx-6 font-semibold text-gray-600">библиотека</a>
+			<a href="/videos/about" class="mx-6 font-semibold text-gray-600">про курс</a>
+			<a href="https://ctrlpaint.myshopify.com/" class="mx-6 font-semibold text-gray-600">магазин ctrl+paint</a>
 		</div>
 	</div>
 
