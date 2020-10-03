@@ -1,46 +1,29 @@
+<script>
+	// Declaring variables
+
+	// @variable loaded
+	// Determines if the component is loaded
+	// or no (required for transition to work)
+	let loaded = false;
+	
+	// Importing animations
+	import { fade } from "svelte/transition";
+	import { onMount } from "svelte";
+
+	// Let's now change our loaded state on component mount.
+	onMount(() => {
+		setTimeout(() => {
+			loaded = true;
+		}, 25)
+	});
+</script>
+
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
+	@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 </style>
 
-<svelte:head>
-	<title>Sapper project template</title>
-</svelte:head>
+{ #if loaded }
+	<main in:fade class="bg-gray-100 w-full h-200vh flex items-center justify-center">
 
-<h1>Great success!</h1>
-
-<figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+	</main>
+{ /if }
