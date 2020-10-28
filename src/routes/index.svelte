@@ -59,9 +59,9 @@
 		</section>
 
 		<!-- "Features" section -->
-		<section class="w-full flex flex-wrap px-4 md:px-8">
+		<section class="w-full flex flex-col md:flex-row flex-wrap px-4 md:px-8">
 			<!-- Free Videos -->
-			<div class="w-1/4 px-4 py-2">
+			<div class="w-full md:w-1/4 flex flex-col items-center px-4 py-2">
 				<!-- Image -->
 				<div class="relative">
 					<img src="https://images.squarespace-cdn.com/content/v1/50a3c190e4b0d12fc9231429/1501639872610-BOKX559TIE8KPR8A26WM/ke17ZwdGBToddI8pDm48kPNPF73QC0E8EEcLIwu77JVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIs05aCP46LFIPFMZzEIUlF0vsNX3AgYrJBOd8FXdFdRUKMshLAGzx4R3EDFOm1kBS/freeVideos.jpg?format=300w" alt="Free Videos">
@@ -73,13 +73,13 @@
 				</div>
 
 				<!-- Other Text -->
-				<div class="mt-4 px-2">
-					<p class="text-sm text-gray-700">The free library has hundreds of streaming videos, ready to watch.</p>
+				<div class="mt-4 px-12 md:px-2">
+					<p class="text-sm text-gray-700">Все видеоролики абсолютно бесплатны и уже готовы к просмотру.</p>
 				</div>
 			</div>
 
 			<!-- Clear Viewing Order -->
-			<div class="w-1/4 px-4 py-2">
+			<div class="w-full md:w-1/4 flex flex-col items-center px-4 py-2 mt-16 md:mt-0">
 				<!-- Image -->
 				<div class="relative">
 					<img src="https://images.squarespace-cdn.com/content/v1/50a3c190e4b0d12fc9231429/1501639943855-8JPTYUTL1MBU0EYF9M2T/ke17ZwdGBToddI8pDm48kPNPF73QC0E8EEcLIwu77JVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIs05aCP46LFIPFMZzEIUlF0vsNX3AgYrJBOd8FXdFdRUKMshLAGzx4R3EDFOm1kBS/concise-format.jpg?format=300w" alt="Clear Viewing Order">
@@ -91,13 +91,13 @@
 				</div>
 
 				<!-- Other Text -->
-				<div class="mt-4 px-2">
-					<p class="text-sm text-gray-700">The free library has hundreds of streaming videos, ready to watch.</p>
+				<div class="mt-4 px-12 md:px-2">
+					<p class="text-sm text-gray-700">Все видеоролики организованны так, что бы вы получали ваши знания и навыки постепенно. Начиная с самого простого и заканчивая более сложными темами.</p>
 				</div>
 			</div>
 
 			<!-- Concise Format -->
-			<div class="w-1/4 px-4 py-2">
+			<div class="w-full md:w-1/4 flex flex-col items-center px-4 py-2 mt-16 md:mt-0">
 				<!-- Image -->
 				<div class="relative">
 					<img src="https://images.squarespace-cdn.com/content/v1/50a3c190e4b0d12fc9231429/1501639895865-1FNYNXDXWUPMYGDRP77J/ke17ZwdGBToddI8pDm48kPNPF73QC0E8EEcLIwu77JVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIs05aCP46LFIPFMZzEIUlF0vsNX3AgYrJBOd8FXdFdRUKMshLAGzx4R3EDFOm1kBS/concise-format.jpg?format=300w" alt="Concise Format">
@@ -109,13 +109,13 @@
 				</div>
 
 				<!-- Other Text -->
-				<div class="mt-4 px-2">
-					<p class="text-sm text-gray-700">The free library has hundreds of streaming videos, ready to watch.</p>
+				<div class="mt-4 px-12 md:px-2">
+					<p class="text-sm text-gray-700">Каждый видеоролик рассказывает про отедельную тему и идёт максимум 5 минут. Всё максимально коротко и понятно.</p>
 				</div>
 			</div>
 
 			<!-- Student Supported -->
-			<div class="w-1/4 px-4 py-2">
+			<div class="w-full flex flex-col items-center md:w-1/4 px-4 py-2 mt-16 md:mt-0">
 				<!-- Image -->
 				<div class="relative">
 					<img src="https://images.squarespace-cdn.com/content/v1/50a3c190e4b0d12fc9231429/1501639909808-SQ5RDWNH0AFOY45PVKWW/ke17ZwdGBToddI8pDm48kPNPF73QC0E8EEcLIwu77JVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIs05aCP46LFIPFMZzEIUlF0vsNX3AgYrJBOd8FXdFdRUKMshLAGzx4R3EDFOm1kBS/studentSupported.jpg?format=300w" alt="">
@@ -127,8 +127,8 @@
 				</div>
 
 				<!-- Other Text -->
-				<div class="mt-4 px-2">
-					<p class="text-sm text-gray-700">The free library has hundreds of streaming videos, ready to watch.</p>
+				<div class="mt-4 px-12 md:px-2">
+					<p class="text-sm text-gray-700">Ни одной рекламной вставки; никаких вымогательских схем и подобного. Проект поддерживается за счёт донатов сообщества.</p>
 				</div>
 			</div>
 		</section>
